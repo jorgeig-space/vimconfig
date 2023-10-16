@@ -43,6 +43,7 @@ require('lazy').setup({
   {'junegunn/gv.vim'},
   {'junegunn/fzf', build=':call fzf#install()'},
   {'junegunn/fzf.vim'},
+  {'lewis6991/gitsigns.nvim'},
 
   -- LSP Support
   {
