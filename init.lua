@@ -21,6 +21,7 @@ vim.opt.rtp:append('/opt/homebrew/opt/fzf')
 require('lazy').setup({
   -- Color scheme
   {'morhetz/gruvbox'},
+  -- {'tomasr/molokai'},
   -- Some small keybindings
   -- Command cs (change surrounding) ds (delete surrounding) to manipulate surrounding delimiters
   {'tpope/vim-surround'},
@@ -117,4 +118,4 @@ require('fzf')
 require('git')
 require('airline')
 require('folding')
-
+require('diagnostics')
